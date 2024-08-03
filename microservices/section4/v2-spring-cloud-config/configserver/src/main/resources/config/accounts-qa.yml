@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related qa APIs"
+  contactDetails:
+    name: "Paurav Singh - qa Lead"
+    email: "paurav@eazybank.com"
+  onCallSupport:
+    - (666) 555-1234
+    - (666) 523-1345

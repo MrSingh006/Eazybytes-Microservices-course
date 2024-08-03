@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank cards related local APIs"
+  contactDetails:
+    name: "Paurav Singh - Developer"
+    email: "paurav@eazybank.com"
+  onCallSupport:
+    - (111) 555-1234
+    - (111) 523-1345

@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related prod APIs"
+  contactDetails:
+    name: "Paurav Singh - prod environment"
+    email: "paurav@eazybank.com"
+  onCallSupport:
+    - (777) 555-1234
+    - (777) 523-1345

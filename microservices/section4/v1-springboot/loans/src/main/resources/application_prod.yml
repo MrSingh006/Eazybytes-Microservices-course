@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to EazyBank loans related prod APIs"
+  contactDetails:
+    name: "Paurav Singh - Prod Owner"
+    email: "paurav@eazybank.com"
+  onCallSupport:
+    - (789) 555-1234
+    - (789) 523-1345

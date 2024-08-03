@@ -1,0 +1,23 @@
+server:
+  port: 8071
+
+spring:
+  application:
+    name: "configserver"
+  profiles:
+#    active: native
+    active: git
+  cloud:
+    config:
+      server:
+#        native:
+#          search-locations: "classpath:/config"
+#          search-locations: "file:///D://dsa_learning//eazybytes//Documents//Config"
+        git:
+          uri: "https://github.com/MrSingh006/eazybytes-config.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+
+#We have written new search-locations to search inside D: drive instead of class path of project

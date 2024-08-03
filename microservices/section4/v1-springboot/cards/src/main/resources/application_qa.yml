@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to EazyBank cards related QA APIs "
+  contactDetails:
+    name: "Paurav Singh - QA Lead"
+    email: "paurav@eazybank.com"
+  onCallSupport:
+    - (222) 555-1234
+    - (222) 523-1345

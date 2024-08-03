@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to EazyBank loans related qa APIs"
+  contactDetails:
+    name: "Paurav Singh - QA Lead"
+    email: "paurav@eazybank.com"
+  onCallSupport:
+    - (456) 555-1234
+    - (456) 523-1345

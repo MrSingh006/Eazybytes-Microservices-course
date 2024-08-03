@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to EazyBank cards related prod APIs"
+  contactDetails:
+    name: "Paurav Singh - Prod Owner"
+    email: "paurav@eazybank.com"
+  onCallSupport:
+    - (333) 555-1234
+    - (333) 523-1345
